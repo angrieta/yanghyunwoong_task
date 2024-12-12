@@ -1,0 +1,226 @@
+main {
+    margin: 0 80px;
+}
+/* ======================================================로고 */
+main h1 {margin-top: 21px;}
+main h1 a {}
+main h1 a img {}
+/* ======================================================간편로그인 */
+main .content_container {
+    width: 360px;
+    margin: 76px auto;
+}
+main .content_container .sign_up {
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 30px
+}
+main .content_container .sign_up h2 {
+    font-size: 1.25rem; font-weight: 600;
+    margin-bottom: 12px;
+}
+main .content_container .sign_up p {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #777;
+}
+main .content_container .sign_up a  {}
+main .content_container .sign_up .facebook  {margin-left: 95px;}
+main .content_container .sign_up .kakao  {padding: 0 20px;}
+main .content_container .sign_up .naver  {}
+main .content_container .sign_up a img  
+/* ======================================================이메일 영역  */
+main .content_container dl  {
+}
+main .content_container dl dt  {
+    padding : 22px 0 10px 0;
+    font-size: 1.0625rem;
+    font-weight: 500;
+} /* dt 제목 공통라인 */
+main .content_container dl dd {
+    font-size: 0.875rem; 
+    color: #777;
+}
+main .content_container dl dd {overflow: hidden;}
+main .content_container dl dd {}
+main .content_container dl .email_line  {margin-bottom: 10px;}
+main .content_container dl .email_line em {position: relative; top: 10px; color: #777;}
+main .content_container dl .email_line .email_box  {
+    float: left;
+    width: 170px;
+    padding: 10px 0 10px 0;
+    border: 1px solid #DDDDDD; border-radius: 3px;
+    margin-right: 2.5px;
+}
+main .content_container dl .email_line .email_select_box  {
+    float: right;
+    width: 170px;
+    padding: 11px;
+    border: 1px solid #DDDDDD; border-radius: 3px;
+}
+main .content_container dl .email_line .email_select_box option  {}
+main .content_container dl .email_line .email_select_box option  {}
+main .content_container dl .email_btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center; font-weight: 600;
+    background-color: #F5F5F5; color: #777;
+    border: 1px solid #ddd; border-radius: 3px;
+}
+/* ======================================================비밀번호 영역  */
+main .content_container dl input {}
+main .content_container dl input .email_box{}
+main .content_container dl input::placeholder{
+    color: #BBBBBB; padding-left: 10px;
+}
+main .content_container dl .pw_box {
+    margin-top: 10px; padding: 10px 0;
+    width: 100%;
+    color: #777;
+    border: 1px solid #ddd; border-radius: 3px;
+}
+main .content_container dl .recheck_pw_box {
+    padding: 10px 0;
+    width: 100%;
+    color: #777;
+    border: 1px solid #ddd; border-radius: 3px;
+}
+/* ======================================================닉네임 영역  */
+main .content_container dl .nickname_box {
+    padding: 10px 0;
+    margin-top: 10px;
+    width: 100%;
+    color: #777;
+    border: 1px solid #ddd; border-radius: 3px;
+}
+/* ======================================================약관동의 통합  */
+main .content_container h3{
+    padding : 22px 0 10px 0;
+    font-size: 1.0625rem;
+    font-weight: 500;
+}
+main .content_container .terms_area {
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+main .content_container .terms_area p {
+    padding: 14px 0;
+}
+main .content_container .terms_area p{    
+}
+main .content_container .terms_area p label{
+    background-image: url(../images/check_box_n.png);
+    background-repeat: no-repeat;
+    background-position: 1px;
+    font-size: 0.8125rem;
+    padding: 2px 0; margin: -2px 0;
+    
+}
+main .content_container .terms_area p label span,
+main .content_container .terms_area p label em{
+    font-size: 0.8125rem;
+    color: #3292FF;
+}
+main .content_container .terms_area p label span{ color: #777;}
+
+/* ======================================================전체동의 영역  */
+main .content_container .terms_area .agree_all_btn{
+    margin: 0 auto;
+    width: 340px;
+    border-bottom: 1px solid #eee;
+}
+main .content_container .terms_area .agree_all_btn label{
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 34px;
+    position: relative; left: -14px;
+    margin: 10px;
+}
+main .content_container .terms_area .agree_all_btn label span{
+    color: #777;
+    margin-left: 4px; position: relative; bottom: 2px;
+}
+main .content_container .terms_area .agree_all_btn #agree1:checked+label{
+    background-image: url(../images/check_box_y.png);
+    background-repeat: no-repeat;
+    
+}
+/* ======================================================14세이상 영역  */
+main .content_container .terms_area .agree_child{}
+main .content_container .terms_area .agree_child label{
+    padding-left: 34px;
+    margin-left: 4px;
+}
+main .content_container .terms_area .agree_child label em{}
+main .content_container .terms_area .agree_child #agree2:checked+label{
+    background-image: url(../images/check_box_y.png);
+}
+/* ======================================================이용약관 영역  */
+main .content_container .terms_area .agree_terms{}
+main .content_container .terms_area .agree_terms label{
+    padding-left: 34px;
+    margin-left: 4px;
+}
+main .content_container .terms_area .agree_terms label em{}
+main .content_container .terms_area .agree_terms #agree3:checked+label{
+    background-image: url(../images/check_box_y.png);
+}
+main .content_container .terms_area .agree_terms a{}
+main .content_container .terms_area .agree_terms a img{float: right; margin-right: 10px}
+/* ======================================================개인정보 수집 동의  영역  */
+main .content_container .terms_area .agree_privacy{}
+main .content_container .terms_area .agree_privacy label{
+    padding-left: 34px;
+    margin-left: 4px;
+}
+main .content_container .terms_area .agree_privacy label em{}
+main .content_container .terms_area .agree_privacy #agree4:checked+label{
+    background-image: url(../images/check_box_y.png);
+}
+main .content_container .terms_area .agree_privacy a{}
+main .content_container .terms_area .agree_privacy a img{float: right; margin-right: 10px}
+/* ======================================================개인정보 마케팅 활용 동의  영역  */
+main .content_container .terms_area .agree_marketing{}
+main .content_container .terms_area .agree_marketing label{
+    padding-left: 34px;
+    margin-left: 4px;
+}
+main .content_container .terms_area .agree_marketing label span{}
+main .content_container .terms_area .agree_marketing #agree5:checked+label{
+    background-image: url(../images/check_box_y.png);
+}
+main .content_container .terms_area .agree_marketing a{}
+main .content_container .terms_area .agree_marketing a img{float: right; margin-right: 10px}
+/* ======================================================이벤트, 쿠폰, 특가 알림 메일 및 SMS 등 수신  영역  */
+main .content_container .terms_area .agree_event{}
+main .content_container .terms_area .agree_event label{
+    padding-left: 34px;
+    margin-left: 4px;
+}
+main .content_container .terms_area .agree_event label span{}
+main .content_container .terms_area .agree_event #agree6:checked+label{
+    background-image: url(../images/check_box_y.png);
+}
+/* ======================================================회원가입 영역  */
+main .content_container a {
+}
+main .content_container a p {
+    width: 100%;
+    background-color: #3292FF; color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 15px 0;
+    margin: 37px 0 22px 0;
+}
+
+/* ======================================================이미 아이디가 있으신가요? 영역  */
+main .content_container .login_c {
+    width: 100%;
+    text-align: center;
+}
+main .content_container .login_c a{}
+main .content_container .login_c a em{
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+}
